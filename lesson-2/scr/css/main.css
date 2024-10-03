@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.nav {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: 150;
+    text-decoration: dashed;
+    text-decoration-color: orange;
+    padding: 100px 150px 0px 300px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 35px;
+}
+
+span {
+    color: white;
+    font-size: 30px;
+    padding: 0 300px;
+}
+
+
+h1 {
+    font-size: 26px;
+}
+
+.card {
+    height: 54vh;
+    max-width: 21vw;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: #252525;
+}
+
+.card-author {
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+img {
+    width: 19vw;
+    height: 17vh;
+    margin: 15px 0 19px 15px;
+}
+
+.inf {
+    font-size: 20px;
+    width: 15vw;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    
+}
+
+.date-1 {
+    display: inline;
+    margin: 0 0 0 0vw;
+    color: white;
+    font-size: 20px;
+}
+
+.footer {
+    margin: 0 11vw;
+    width: 10vw;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: ;
+    
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.link {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    transform: scaleX(1.1);
+}
+
+a:hover {
+    color: rgb(184, 121, 3);
+    transition: 0.4s;
+    transform: scaleX(1.1);
+}
