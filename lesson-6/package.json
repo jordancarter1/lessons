@@ -1,0 +1,16 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@shcherbin/stylelint-config": "^0.2.0",
+    "stylelint": "^16.9.0",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}
