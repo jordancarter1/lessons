@@ -1,0 +1,19 @@
+{
+  "name": "lesson14.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shcherbin/stylelint-config": "^0.2.0",
+    "add": "^2.0.6",
+    "eslint": "^9.13.0",
+    "pnpm": "^9.12.2",
+    "stylelint": "^16.10.0"
+  }
+}
