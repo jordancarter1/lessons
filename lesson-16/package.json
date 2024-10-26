@@ -1,0 +1,11 @@
+{
+	"devDependencies": {
+		"@shcherbin/eslint-config-node": "^0.3.0",
+		"@shcherbin/stylelint-config": "^0.2.0",
+		"acorn": "^8.13.0",
+		"add": "^2.0.6",
+		"eslint": "^8.57.1",
+		"pnpm": "^9.12.2",
+		"stylelint": "^16.10.0"
+	}
+}

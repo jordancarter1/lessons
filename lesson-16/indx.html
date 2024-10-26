@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script deefer src="js/index.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+
+
+    <title>lesson16</title>
+</head>
+<body>
+   
+
+    <div class="content">начальное содержимое элемента</div>
+
+    <div class="buttons">
+     <button class="changeContentButton" onclick="">изменить содержимое</button>
+     <button class="replaceElementButton" onclick="">заменить элемент на другой</button>
+     <button class="modal-button">открыть модальное окно</button>
+    </div>
+
+    <form id="myForm">
+        <label for="inputField">Введите текст:</label>
+        <input type="text" id="inputField" name="inputField">
+        <button class="button-input" type="submit">Отправить</button>
+    </form>
+
+    <form id="searchForm">
+        <label for="searchForm">ключевое слово</label>
+        <input type="text" id="searcInput" name="searcInput" required>
+        <button type="submit">Искать</button>
+    </form>
+
+    <h2>результаты поиска</h2>
+    <ul id="resultList"></ul>
+ 
+
+</body>
+</html>
