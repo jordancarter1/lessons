@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+main {
+    width: 50vw;
+    height: 100vh;
+    padding: 30px 50px 30px 30px ;
+}
+
+h1 {
+    margin: 80px 0 0 20vw;
+    font-size: 25px;
+    font-weight: 600;;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+button {
+    outline: solid;
+    outline-color: #BCBBB5;
+    outline-width: 1px;
+    width: 20vw;
+    height: 4vh;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+
+.buttons {
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+p {
+    margin: 4vh 0 1vh 9vw;
+    opacity: 0.7;
+}
+
+.main {
+    outline: solid;
+    outline-color: #BCBBB5;
+    width: 19vw;
+    height: 5vh;
+    border-radius: 100px;
+    outline-width: 1px;
+}
+
+
+.string-1 {
+    margin-left: 20vw;
+}
+
+.string-2 {
+    margin-left: 20vw;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}   
+
+
+
+.inp {
+    outline: solid;
+    outline-color: #BCBBB5;
+    width: 24px;
+    height: 24px;
+    outline-width: 1px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+form {
+    width: 21vw;
+    display: flex;
+    justify-content: right;
+}
+
+.main:last-child {
+    margin-bottom: 19px;
+}
+
+.terms {
+    margin-left: 16vw;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.account {
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.right-side {
+    height: 95vh;
+    width: 40vw; 
+    position: absolute; 
+    margin: 2vh 0 0 55vw;
+}
+
+.img-right {
+    height: 95vh;
+    width: 40vw;
+    position: absolute;
+}
+
+@media (max-width: 1024px) {
+    img {
+        display: none;
+    }
+
+    button {
+        width: 300px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .main {
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    form {
+        margin-left: 80px;
+    }
+
+    p {
+        margin-left: 140px;
+    }
+
+    .log {
+        display: inline;
+    }
+    
+}
+    
+
+@media (max-width: 744px) {
+    img {
+        display: none;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    button {
+        font-size: 15px;
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .account {
+        margin-left: 10px;
+    }
+
+    .main {
+        width: 300px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    p {
+        margin-left: 135px;
+    }
+
+    .log {
+        display: inline;
+    }
+
+    .conditions {
+        display: inline;
+    }
+
+    .inp {
+        width: 40px;
+    }
+}
